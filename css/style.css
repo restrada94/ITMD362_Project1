@@ -1,35 +1,69 @@
 body {
   background-color: lightgrey;
-  font-family: "Arial Black", Helvetica, sans-serif;
+  font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+  /* font-family: "Arial Black", Helvetica, sans-serif; */
+  font-size: 1.3vw;
   color: black;
 }
 
 h1 {
   font-size: 1.2em;
-  text-decoration: underline;
+  text-align: left;
 }
+
+p{
+padding-right: 5em;
+width: 90%;
+padding-left: 5em;
+}
+
 
 #header {
   background-color: red;
   width: 50%;
   position: absolute;
   top: 3em;
-  height: 5em;
+  height: 2em;
 }
 
 #formsection {
-  top: 8em;
+  top: 5em;
   position: absolute;
   width: 50%;
   background-color: purple;
-  display: inline-block;
+  resize: none;
+  /* display: inline-block; */
   /* resize: none; */
 }
 
 fieldset, label, header {
   padding-left: 5em;
+  width: 90%;
   height: 4em;
 }
+
+.inputfirst{
+  text-align: left;
+  width:8em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.inputnext{
+  width: 32.365em;
+}
+
+.inputlast{
+  width: 32.555em;
+}
+
+form {
+  padding-top: 2em;
+}
+
+/* .inputlast{
+  width: 91%;
+} */
 
 /* .videos iframe {
 	/* position: absolute;
