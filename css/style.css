@@ -1,0 +1,78 @@
+body {
+  background-color: lightgrey;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  color: black;
+}
+
+h1 {
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+#header {
+  background-color: red;
+  width: 50%;
+  position: absolute;
+  top: 3em;
+  height: 5em;
+}
+
+#formsection {
+  top: 8em;
+  position: absolute;
+  width: 50%;
+  background-color: purple;
+  display: inline-block;
+  /* resize: none; */
+}
+
+fieldset, label, header {
+  padding-left: 5em;
+  height: 4em;
+}
+
+/* .videos iframe {
+	/* position: absolute;
+	top: 0;
+	left: 0; 
+	width: 20em;
+    height: auto;
+    object-fit: contain;
+} */
+
+iframe {
+  width: 94%;
+  height: 20em;
+  object-fit: contain;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#videos {
+  position: absolute;
+  background-color: green;
+  margin-left: 40%;
+  width: 50%;
+  right: 0;
+  min-height: 100%;
+  object-fit: contain;
+  padding-top: 3em;
+  overflow: auto;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* 
+  @media screen and (min-width : 900px) {
+    #header{
+
+    }
+ 
+    body{
+        border-left: 250px solid #cccccc;
+    }
+} */
