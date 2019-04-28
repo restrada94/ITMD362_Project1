@@ -1,4 +1,6 @@
-$("form").on("submit", function() {
+// The function below is called by the form submit button in index.html, so no need to call it from this file.
+
+function process() {
     var firstName = $("#firstname").val();
     var lastName = $("#lastname").val();
     var email = $("#email").val();
@@ -13,4 +15,4 @@ $("form").on("submit", function() {
         alert("Please enter an e-mail address.");
     }
     alert("Successfully submitted! Thanks!");
- });
+ }
