@@ -1,6 +1,7 @@
 body {
   background-color: rgb(17, 83, 83);
-  font-family: 'Slabo 13px', serif, Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+  font-family: "Slabo 13px", serif, Utopia, "Liberation Serif",
+    "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
   font-size: 1.3vw;
   color: bisque;
 }
@@ -12,20 +13,19 @@ h1 {
   text-decoration: underline;
 }
 
-p{
-padding-right: 5em;
-width: 80%;
-padding-left: 5em;
-text-align: left;
+p {
+  padding-right: 5em;
+  width: 80%;
+  padding-left: 5em;
+  text-align: left;
 }
 
-#inner{
+#inner {
   width: 100%;
   overflow: auto;
   height: 100%;
   padding-right: 15px;
 }
-
 
 #header {
   width: 50%;
@@ -41,28 +41,30 @@ text-align: left;
   resize: none;
 }
 
-fieldset, label, header {
+fieldset,
+label,
+header {
   padding-left: 5em;
   width: 90%;
   height: 4em;
 }
 
-label{
+label {
   padding-top: 2em;
   color: azure;
 }
 
-.inputfirst{
+.inputfirst {
   text-align: left;
-  width:8em;
+  width: 8em;
   padding-right: 8em;
 }
 
-.inputnext{
+.inputnext {
   width: 32.365em;
 }
 
-.inputlast{
+.inputlast {
   width: 32.555em;
   text-decoration: none;
   border: none;
@@ -93,19 +95,82 @@ iframe {
   overflow: auto;
 }
 
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 900px) {
   body {
-    background-color: lightblue;
+    font-size: 1.2em;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  p {
+    padding-right: 1em;
+    width: 100%;
+    padding-left: 1em;
+    text-align: left;
+  }
+
+  #header {
+    width: 100%;
+    position: absolute;
+    top: 1.5em;
+    height: 2em;
+  }
+
+  #formsection {
+    top: 4.2em;
+    position: absolute;
+    width: 90%;
+    resize: none;
+  }
+
+  fieldset,
+  header {
+    padding-left: 0.6em;
+    width: 90%;
+    height: 8em;
+  }
+
+  #formlabel {
+    padding-top: 0.5em;
+    color: azure;
+  }
+
+  .inputfirst {
+    text-align: left;
+    width: 76%;
+    padding-right: 4em;
+  }
+
+  .inputnext {
+    width: 100%;
+  }
+
+  .inputlast {
+    width: 100%;
+  }
+
+  form {
+    padding-top: 1em;
+    color: rgb(14, 73, 97);
+  }
+
+  iframe {
+    width: 94%;
+    height: 16em;
+    padding-left: 0.5em;
+    padding-right: 1em;
+  }
+
+  #videos {
+    position: absolute;
+    top: 18em;
+    margin-left: 20%;
+    width: 100%;
+    min-height: 100%;
+    object-fit: scale-down;
+    padding-top: 3em;
+    overflow: auto;
   }
 }
-
-/* 
-  @media screen and (min-width : 900px) {
-    #header{
-
-    }
- 
-    body{
-        border-left: 250px solid #cccccc;
-    }
-} */
