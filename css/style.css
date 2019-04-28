@@ -1,39 +1,44 @@
 body {
-  background-color: lightgrey;
-  font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
-  /* font-family: "Arial Black", Helvetica, sans-serif; */
+  background-color: rgb(17, 83, 83);
+  font-family: 'Slabo 13px', serif, Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
   font-size: 1.3vw;
-  color: black;
+  color: bisque;
 }
 
 h1 {
-  font-size: 1.2em;
+  color: azure;
+  font-size: 2em;
   text-align: left;
+  text-decoration: underline;
 }
 
 p{
 padding-right: 5em;
-width: 90%;
+width: 80%;
 padding-left: 5em;
+text-align: left;
+}
+
+#inner{
+  width: 100%;
+  overflow: auto;
+  height: 100%;
+  padding-right: 15px;
 }
 
 
 #header {
-  background-color: red;
   width: 50%;
   position: absolute;
-  top: 3em;
+  top: 6em;
   height: 2em;
 }
 
 #formsection {
-  top: 5em;
+  top: 9em;
   position: absolute;
   width: 50%;
-  background-color: purple;
   resize: none;
-  /* display: inline-block; */
-  /* resize: none; */
 }
 
 fieldset, label, header {
@@ -42,11 +47,15 @@ fieldset, label, header {
   height: 4em;
 }
 
+label{
+  padding-top: 2em;
+  color: azure;
+}
+
 .inputfirst{
   text-align: left;
   width:8em;
-  padding-left: 4em;
-  padding-right: 4em;
+  padding-right: 8em;
 }
 
 .inputnext{
@@ -55,28 +64,19 @@ fieldset, label, header {
 
 .inputlast{
   width: 32.555em;
+  text-decoration: none;
+  border: none;
+  background-color: azure;
 }
 
 form {
-  padding-top: 2em;
+  padding-top: 1em;
+  color: rgb(14, 73, 97);
 }
-
-/* .inputlast{
-  width: 91%;
-} */
-
-/* .videos iframe {
-	/* position: absolute;
-	top: 0;
-	left: 0; 
-	width: 20em;
-    height: auto;
-    object-fit: contain;
-} */
 
 iframe {
   width: 94%;
-  height: 20em;
+  height: 16em;
   object-fit: contain;
   padding-left: 1em;
   padding-right: 1em;
@@ -84,12 +84,11 @@ iframe {
 
 #videos {
   position: absolute;
-  background-color: green;
   margin-left: 40%;
   width: 50%;
   right: 0;
   min-height: 100%;
-  object-fit: contain;
+  object-fit: scale-down;
   padding-top: 3em;
   overflow: auto;
 }
